@@ -114,11 +114,11 @@ body { font-family: 'Jost', sans-serif; background: var(--cream); color: var(--t
   display: flex; justify-content: center;
 }
 .book-img {
-  width: 160px; height: 220px;
-  background: linear-gradient(160deg, #C4896B 0%, #7A3010 100%);
+  width: 100%; height: auto; max-width: 300px;
+  background: transparent;
   border-radius: 4px 12px 12px 4px;
   box-shadow: 12px 12px 40px rgba(0,0,0,0.6), -2px 0 8px rgba(0,0,0,0.3);
-  display: flex; align-items: center; justify-content: center;
+  display: block;
   color: #FAF0E8; font-size: 11px; text-align: center; padding: 20px;
   line-height: 1.7;
   font-family: 'Cormorant Garamond', serif;
@@ -400,7 +400,7 @@ footer p { font-size: 11px; color: #4A2525; letter-spacing: 0.1em; }
     <h2 class="section-h2 display">Todo lo que recibes <em>hoy</em></h2>
     <div class="inc-grid">
       <div class="inc-card">
-        <img src="portada1.png" style="width:60px;height:80px;object-fit:cover;border-radius:4px;">
+        <img src="portada1.png" style="width:100px;height:130px;object-fit:cover;border-radius:4px;">
         <div class="inc-info">
           <span class="inc-tag2">E-book principal</span>
           <p class="inc-name2 display">El duelo que nadie te enseñó a cargar</p>
@@ -409,7 +409,7 @@ footer p { font-size: 11px; color: #4A2525; letter-spacing: 0.1em; }
         <div class="inc-price2">$7,99 USD</div>
       </div>
       <div class="inc-card">
-        <img src="portada2.png" style="width:60px;height:80px;object-fit:cover;border-radius:4px;">
+        <img src="portada2.png" style="width:100px;height:130px;object-fit:cover;border-radius:4px;">
         <div class="inc-info">
           <span class="inc-tag2">Bono 1</span>
           <p class="inc-name2 display">Cuaderno de acompañamiento</p>
@@ -418,7 +418,7 @@ footer p { font-size: 11px; color: #4A2525; letter-spacing: 0.1em; }
         <div class="inc-price2" style="color:#8BAD6B;">Parte del paquete</div>
       </div>
       <div class="inc-card">
-        <img src="portada3.png" style="width:60px;height:80px;object-fit:cover;border-radius:4px;">
+        <img src="portada3.png" style="width:100px;height:130px;object-fit:cover;border-radius:4px;">
         <div class="inc-info">
           <span class="inc-tag2">Bono 2</span>
           <p class="inc-name2 display">Lo que nunca pudiste decirle</p>
